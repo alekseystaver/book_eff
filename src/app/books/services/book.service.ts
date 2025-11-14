@@ -45,6 +45,10 @@ export class BookService {
     this.books = this.books.filter(book => book.id !== id);
   }
 
+  public getBooksCount(): number{
+    return this.books.length;
+  }
+
   public searchBooks(term: string): Book[] {
     if (!term.trim()) return [...this.books];
     term = term.toLowerCase();

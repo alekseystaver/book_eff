@@ -1,2 +1,11 @@
-<h1>Books Project</h1>
-<app-books-list></app-books-list>
+<header>
+  <h1>Books Project</h1>
+  <nav>
+    <button (click)="goToBookList()">Home</button>
+    <a routerLink="/book-count">Количество книг</a> 
+  </nav>
+</header>
+
+<main>
+  <router-outlet></router-outlet>
+</main>

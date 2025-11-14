@@ -14,6 +14,10 @@
   padding: 8px 12px;
   cursor: pointer;
 }
+.create-btn{
+  background-color: rgba(192, 227, 229, 0.363);
+  border: none;
+}
 .input {
   width: 400px;
 }
